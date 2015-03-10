@@ -16,10 +16,15 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <hbase.version>0.99.2</hbase.version>
   </properties>
 
   <dependencies>
-    
+    <dependency>
+        <groupId>org.apache.hbase</groupId>
+        <artifactId>hbase-client</artifactId>
+        <version>${hbase.version}</version>
+    </dependency>
   </dependencies>
   
   <build>
