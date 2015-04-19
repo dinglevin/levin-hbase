@@ -26,6 +26,10 @@
         <value>file://${user.dir}/data</value>
     </property>
     <property>
+        <name>hbase.zookeeper.property.dataDir</name>
+        <value>file://${user.dir}/zkdata</value>
+    </property>
+    <property>
         <name>hbase.regionserver.ipc.address</name>
         <value>localhost</value>
     </property>
